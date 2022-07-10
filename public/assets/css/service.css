@@ -1,0 +1,39 @@
+.main-banner-area-with-bg-image {
+    background-image: url(../../assets/images/main-banner/banner-two/hero_service-intro.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 270px;
+    padding-bottom: 180px;
+}
+
+.hero-contents {
+    max-width: 1083px;
+    margin: 0 auto;
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 1em;
+}
+
+.hero-contents .texts .sub-header {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    font-family: ヒラギノ角ゴ Pro,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ\ Ｐゴシック,MS PGothic,MS Gothic,ＭＳ\ ゴシック,Helvetica Neue,Helvetica,Arial,sans-serif!important;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: .9px;
+}
+
+.hero-contents .texts .desc {
+    font-family: ヒラギノ角ゴ Pro,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ\ Ｐゴシック,MS PGothic,MS Gothic,ＭＳ\ ゴシック,Helvetica Neue,Helvetica,Arial,sans-serif!important;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.19;
+    letter-spacing: .3px;
+    color: white;
+}

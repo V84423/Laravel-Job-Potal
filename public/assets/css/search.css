@@ -1,0 +1,85 @@
+.main-banner-area-with-bg-image {
+    height: 720px;
+    background-image: url(../../assets/images/main-banner/banner-two/search.jpg);
+}
+
+.find-other-jobs_btn {
+    width: 31.2%;
+    height: 60px;
+    display: inline-block !important;
+    background-color: #fff;
+    color: #169998;
+    margin-bottom: 30px !important;
+    border-radius: 35.5px !important;
+    box-shadow: 0 2px 4px 0 hsl(0deg 0% 69% / 50%);
+    font-family: ヒラギノ角ゴ Pro,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,Osaka,ＭＳ\ Ｐゴシック,MS PGothic,MS Gothic,ＭＳ\ ゴシック,Helvetica Neue,Helvetica,Arial,sans-serif!important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-right: 3.1%;
+    display: -ms-inline-flexbox;
+    display: inline-flex !important;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: pre-wrap !important;
+    word-break: break-word;
+}
+
+h2 {
+    color: #fff;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.project_quick_link {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_quick_link li {
+    /* margin-right: 10px; */
+    flex: 1 0 33.3333%;
+    max-width: 33.33333%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.project_quick_link li a {
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    position: relative;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.project_quick_link li a:after {
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    right: 15px;
+    position: absolute;
+    top: 17px;
+    font-size: 50px !important;
+    width: 15px;
+    height: 15px;
+    content: '';
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(
+45deg);
+    transform: rotate(
+45deg);
+    -moz-transition: border-color 0.3 ease-in-out;
+    -o-transition: border-color 0.3 ease-in-out;
+    -webkit-transition: border-color 0.3 ease-in-out;
+    transition: border-color 0.3 ease-in-out;
+}

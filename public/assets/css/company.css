@@ -1,0 +1,48 @@
+.main-banner-area-with-bg-image {
+    background-image: url(../../assets/images/main-banner/banner-two/hero_service-intro.jpg);
+}
+
+
+.services {
+    padding: 50px 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+    margin: auto;
+    background: white;
+}
+
+
+.contact-page-heading .title-contact {
+    background: white;
+}
+
+.page-banner-area.item-bg-four {
+    height: 660px;
+    background-image: linear-gradient(to left, #00c6ab, #006e3b);
+}
+
+.contract{
+
+        background: white;
+
+}
+
+
+.slick-prev {
+    left: 20px !important;
+    z-index: 999;
+}
+
+
+.slick-next {
+    right: 20px !important;
+    z-index: 999;
+}
+
+.inquiry-form-group input:not([type=checkbox])+label, .inquiry-form-group select+label, .inquiry-form-group textarea+label {
+    display: none;
+    margin: 0;
+    color: #ff4b4b;
+}
